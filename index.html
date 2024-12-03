@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid"></script>
+    <script src="https://kit.fontawesome.com/a43f663d1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Travel Time</h1>
+            </div>
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#book">Book</a></li>
+                <li><a href="#package">Packages</a></li>
+                <li><a href="#Place">Best Places</a></li>
+                <li><a href="#Contact">Contatct</a></li>
+            </ul>
+            <div class="icons">
+                <i id="bar" class="fa-solid fa-bars"></i>
+                <i id="user" class="fa-solid fa-user"></i>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="maintext">
+                <h1>Best Vacation 
+                    destination<br> Your Holiday Drems
+                </h1>
+                <button>Explore</button>
+            </div>     
+        </div>
+        <div class="Book" id="book">
+            <div class="head">
+                <h1>Book <span>Your Place </span></h1>
+            </div>
+            <div class="booking">
+                <img src="picss/areo.jpg" alt="yf" >
+                <div class="form">
+                    <h2>Book your Place Now</h2>
+                    <p>Where You Gone</p>
+                    <input type="text" placeholder="Where You Gone" id="placename">
+                    <p>Members</p>
+                    <input type="number" value="2">
+                    <p>Journey Start's oN</p>
+                    <input type="date">
+                    <p>Journey End's oN</p>
+                    <input type="date">
+                    <button id="submit">Submit</button>
+                </div>
+        
+            </div>
+        </div>
+        <div class="pack" id="package">
+            <div class="head">
+                <h1> Best <span>Packages</span></h1>
+            </div>
+            <div class="packages">
+                <div class="card">
+                    <img src="picss/taj.jpg"alt="" >
+                    <h3>Agara</h3>
+                    <p>2 Week Tour</p>
+                    <p>12,000 only</p>
+                </div>
+                <div class="card">
+                    <img src="picss/ladakh.jpeg"alt="">
+                    <h3>LADAKH</h3>
+                    <p>5 Week Tour</p>
+                    <p>35,000 only</p>
+                </div>
+                <div class="card">
+                    <img src="picss/amritsar.webp"alt="">
+                    <h3>AMRITSAR</h3>
+                    <p>3 Week Tour</p>
+                    <p>15,000 only</p>
+                </div>
+            </div>
+        </div>     
+         <div class="best" id="Place">
+            <div class="head">
+                <h1>Explore<span>Best Places</span></h1>
+            </div>
+            <div class="places">
+                <div class="placecard">
+                    <img src="picss/p1france.jpg" alt="">
+                    <h3>FRANCE</h3>
+                    <p>209 kilometer Away</p>
+                    <p>1,56,258/- 7Days, 1Night</p>
+                    <br>
+                    <p><a href="https://www.google.com/search?q=france&sca_esv=6e61609ced185b10&sca_upv=1&rlz=1C1CHBD_enIN1114IN1114&biw=1536&bih=730&sxsrf=ADLYWIIhZL1lFOmi0sCeadWRps4ASd8edg%3A1719032266873&ei=yll2Zuj4NPjO2roPw_aPyA8&ved=0ahUKEwjohf-ctu6GAxV4p1YBHUP7A_kQ4dUDCBA&uact=5&oq=france&gs_lp=Egxnd3Mtd2l6LXNlcnAiBmZyYW5jZTIPECMYgAQYJxiKBRhGGPsBMhAQLhiABBixAxhDGIMBGIoFMg4QABiABBixAxiDARiKBTILEC4YgAQYsQMYgwEyChAuGIAEGEMYigUyDhAAGIAEGLEDGIMBGIoFMgoQLhiABBhDGIoFMg4QLhiABBixAxiDARiKBTILEAAYgAQYsQMYgwEyBBAAGAMyGRAAGIAEGIoFGEYY-wEYlwUYjAUY3QTYAQNI7PcFUOEIWKLvBXACeAGQAQSYAc0BoAHuDqoBBjAuMTAuMbgBA8gBAPgBAZgCCaACwAqoAhDCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICGRAuGIAEGLADGEMYxwEYyAMYigUYrwHYAQLCAgoQIxiABBgnGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICEBAuGIAEGLEDGIMBGBQYhwLCAgoQABiABBhDGIoFwgIWEC4YgAQYsQMYQxiDARjHARiKBRivAcICExAuGIAEGLEDGEMYxwEYigUYrwHCAgcQIxgnGOoCwgIQEC4YxwEYJxjqAhiOBRivAcICFhAuGIAEGEMYtAIYyAMYigUY6gLYAQLCAhwQLhiABBhDGLQCGMcBGMgDGIoFGOoCGK8B2AECwgIREC4YgAQYsQMY0QMYgwEYxwHCAhYQLhiABBixAxjRAxhDGIMBGMcBGIoFwgIOEC4YgAQYsQMYgwEY1ALCAggQABiABBixA5gDEIgGAZAGE7oGBggBEAEYCboGBggCEAEYCLoGBggDEAEYE5IHBTIuNi4xoAeH4wE&sclient=gws-wiz-serp">Click here</a> to more information</p>
+                </div>
+                <div class="placecard">
+                    <img src="picss/p2dubai.jpg" alt="">
+                    <h3>DUBAI</h3>
+                    <p>4698 kilometer Away</p>
+                    <p>43,812 Night</p>
+                    <br>
+                    <p><a href="https://www.google.com/search?q=dubai&sca_esv=6e61609ced185b10&sca_upv=1&rlz=1C1CHBD_enIN1114IN1114&biw=1536&bih=730&sxsrf=ADLYWIKDv_IvQFPP6IJkdoLZGnoNiaC0uA%3A1719032597790&ei=FVt2Zv3zL_rc2roPjcOu2A4&ved=0ahUKEwi90uS6t-6GAxV6rlYBHY2hC-sQ4dUDCBA&uact=5&oq=dubai&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWR1YmFpMgoQIxiABBgnGIoFMgoQIxiABBgnGIoFMgoQABiABBhDGIoFMg0QABiABBixAxhDGIoFMgoQABiABBhDGIoFMg0QLhiABBixAxhDGIoFMg0QABiABBixAxhDGIoFMgUQABiABDINEAAYgAQYsQMYQxiKBTIFEAAYgARI1B5QwgNYqRtwAngBkAEEmAHCAaABnA2qAQQwLjEwuAEDyAEA-AEBmAIIoALdCKgCEMICChAAGLADGNYEGEfCAg0QABiwAxjWBBhHGMkDwgIOEAAYgAQYsAMYkgMYigXCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AECwgIIEAAYgAQYsQPCAhwQLhiABBixAxhDGIoFGJcFGNwEGN4EGOAE2AEDwgIHECMYJxjqAsICEBAuGMcBGCcY6gIYjgUYrwHCAhYQLhiABBhDGLQCGMgDGIoFGOoC2AECwgIiEC4YgAQYQxi0AhjHARiYBRjIAxiKBRiaBRjqAhivAdgBAsICCxAAGIAEGLEDGIMBwgIKEC4YgAQYQxiKBcICDhAuGIAEGLEDGIMBGIoFwgIREC4YgAQYsQMYgwEY1AIYigXCAg4QLhiABBixAxjRAxjHAcICGRAuGIAEGEMYxwEYmAUYigUYmgUYngUYrwGYAw-IBgGQBhO6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBSSBwUyLjUuMaAHyoIB&sclient=gws-wiz-serp">Click here</a> to more information</p>
+                </div>
+                <div class="placecard">
+                    <img src="picss/sirnagar.avif" alt="">
+                    <h3>SIRNAGAR</h3>
+                    <p>569787  kilometer Away</p>
+                    <p>3,63,812/- 5days ,4Night</p>
+                    <br>
+                    <p><a href="https://www.google.com/search?q=sirnagar&sca_esv=6e61609ced185b10&sca_upv=1&rlz=1C1CHBD_enIN1114IN1114&biw=1536&bih=730&sxsrf=ADLYWIKFP8nhaaScA5BGd6seagMoNvy2bw%3A1719032563807&ei=81p2ZtTxMIHQ2roP6NSwmAw&ved=0ahUKEwiUt8qqt-6GAxUBqFYBHWgqDMMQ4dUDCBA&uact=5&oq=sirnagar&gs_lp=Egxnd3Mtd2l6LXNlcnAiCHNpcm5hZ2FyMhAQLhiABBixAxhDGIMBGIoFMgoQABiABBixAxgKMgoQABiABBhDGIoFMg0QABiABBixAxhDGIoFMgcQABiABBgKMgoQABiABBhDGIoFMgoQABiABBhDGIoFMg0QABiABBixAxhDGIoFMgoQABiABBhDGIoFMhAQABiABBixAxhDGIMBGIoFMh8QLhiABBixAxhDGIMBGIoFGJcFGNwEGN4EGOAE2AEDSPkjUK8DWM0ccAJ4AZABAZgBjgOgAe4TqgEHMC45LjIuMbgBA8gBAPgBAZgCDKAClxKoAhHCAgcQIxiwAxgnwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICExAuGIAEGLADGEMYyAMYigXYAQLCAhkQLhiABBiwAxhDGMcBGMgDGIoFGK8B2AECwgIKECMYgAQYJxiKBcICDRAuGIAEGLEDGEMYigXCAhAQABiABBixAxiDARgUGIcCwgIIEAAYgAQYsQPCAhwQLhiABBixAxhDGIoFGJcFGNwEGN4EGOAE2AEDwgIKEC4YgAQYQxiKBcICEBAuGIAEGEMYxwEYigUYrwHCAgcQIxgnGOoCwgIQEC4YxwEYJxjqAhiOBRivAcICFhAuGIAEGEMYtAIYyAMYigUY6gLYAQLCAhwQLhiABBhDGLQCGMcBGMgDGIoFGOoCGK8B2AECwgIiEC4YgAQYQxi0AhjHARiYBRjIAxiKBRiaBRjqAhivAdgBAsICCxAAGIAEGLEDGIMBwgIOEAAYgAQYsQMYgwEYigXCAhEQLhiABBixAxjRAxiDARjHAcICExAuGIAEGLEDGNEDGEMYxwEYigXCAgsQLhiABBixAxjUAsICFhAuGIAEGEMYxwEYmAUYmQUYigUYrwHCAhQQLhiABBixAxiDARjHARiKBRivAcICBRAuGIAEwgIIEC4YgAQYsQPCAh8QLhiABBhDGMcBGIoFGK8BGJcFGNwEGN4EGOAE2AEDwgIFEAAYgASYAxGIBgGQBhO6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBSSBwkyLjYuMi4xLjGgB9OjAQ&sclient=gws-wiz-serp">Click here</a> to more information</p>
+                </div>
+                <div class="placecard">
+                    <img src="picss/maldives.jpg" alt="">
+                    <h3>MALDIVES</h3>
+                    <p>4978623 kilometer Away</p>
+                    <p>46,812/-  2Days,1Night</p>
+                    <br>
+                    <p><a href="https://www.google.com/search?q=maldives&sca_esv=6e61609ced185b10&sca_upv=1&rlz=1C1CHBD_enIN1114IN1114&biw=1536&bih=730&sxsrf=ADLYWIKFP8nhaaScA5BGd6seagMoNvy2bw%3A1719032563807&ei=81p2ZtTxMIHQ2roP6NSwmAw&ved=0ahUKEwiUt8qqt-6GAxUBqFYBHWgqDMMQ4dUDCBA&uact=5&oq=maldives&gs_lp=Egxnd3Mtd2l6LXNlcnAiCG1hbGRpdmVzMg0QLhiABBixAxhDGIoFMgoQABiABBhDGIoFMg0QABiABBixAxhDGIoFMg0QABiABBixAxhDGIoFMg0QABiABBixAxhDGIoFMgwQABiABBhDGIoFGAoyDRAAGIAEGLEDGEMYigUyChAAGIAEGEMYigUyEBAAGIAEGLEDGEMYgwEYigUyCBAAGIAEGLEDMhwQLhiABBixAxhDGIoFGJcFGNwEGN4EGOAE2AEDSKYpUMUDWLEncAJ4AZABAZgBhwOgAYkTqgEHMC45LjIuMbgBA8gBAPgBAZgCCqACuQyoAhLCAgcQIxiwAxgnwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICExAuGIAEGLADGEMYyAMYigXYAQLCAhkQLhiABBiwAxhDGMcBGMgDGIoFGK8B2AECwgIHECMYJxjqAsICEBAuGMcBGCcY6gIYjgUYrwHCAhcQLhiABBjjBBi0AhjIAxjpBBjqAtgBAsICFhAuGIAEGEMYtAIYyAMYigUY6gLYAQLCAhwQLhiABBhDGLQCGMcBGMgDGIoFGOoCGK8B2AECwgIiEC4YgAQYQxi0AhjHARiYBRjIAxiKBRiaBRjqAhivAdgBAsICBBAjGCfCAgoQIxiABBgnGIoFwgIQEC4YgAQY0QMYxwEYJxiKBcICCxAAGIAEGLEDGIMBwgIKEC4YgAQYQxiKBcICDhAuGIAEGLEDGIMBGIoFwgIQEC4YgAQYsQMYQxiDARiKBcICEBAuGIAEGEMYxwEYigUYrwHCAgsQLhiABBixAxiDAZgDEogGAZAGE7oGBggBEAEYCboGBggCEAEYCLoGBggDEAEYFJIHBTIuNS4zoAe7ogE&sclient=gws-wiz-serp">Click here</a> to more information</p>
+                </div>
+                <div class="placecard">
+                    <img src="picss/mexico.jpg" alt="">
+                    <h3>MEXICO</h3>
+                    <p>46972 kilometer Away</p>
+                    <p>7,43,812 Night</p>
+                    <br>
+                    <p><a href="https://www.google.com/search?q=mexico&sca_esv=6e61609ced185b10&sca_upv=1&rlz=1C1CHBD_enIN1114IN1114&biw=1536&bih=730&sxsrf=ADLYWII-e6M4EDqcSiyhjXIjRtCD5vk6VA%3A1719032784813&ei=0Ft2ZqKnMbmi2roPk9OxwAk&ved=0ahUKEwiiz_uTuO6GAxU5kVYBHZNpDJgQ4dUDCBA&uact=5&oq=mexico&gs_lp=Egxnd3Mtd2l6LXNlcnAiBm1leGljbzILEC4YgAQYsQMYgwEyCxAuGIAEGLEDGIMBMgUQABiABDILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMgUQABiABDIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBMggQABiABBixAzIOEC4YgAQYsQMYgwEYigUyGhAuGIAEGLEDGIMBGJcFGNwEGN4EGOAE2AEDSIMnUM0DWPcicAJ4AZABBJgBzQGgAcAPqgEGMC4xMC4xuAEDyAEA-AEBmAIJoALSCqgCFMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AECwgIQEC4YgAQYsQMYQxiDARiKBcICBxAAGIAEGArCAgoQABiABBixAxgKwgIQEC4YgAQYsQMYxwEYChivAcICHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQPCAgcQIxgnGOoCwgIQEC4YxwEYJxjqAhiOBRivAcICFhAAGAMYtAIY5QIY6gIYjAMYjwHYAQTCAhYQLhgDGLQCGOUCGOoCGIwDGI8B2AEEwgIKECMYgAQYJxiKBcICBBAjGCfCAhAQLhiABBjRAxjHARgnGIoFwgIKEC4YgAQYQxiKBcICFhAuGIAEGLEDGNEDGEMYgwEYxwEYigXCAgsQLhiABBjRAxjHAcICFhAuGIAEGEMYxwEYmAUYmQUYigUYrwHCAgsQABiABBixAxiKBcICHRAuGIAEGNEDGMcBGIoFGJcFGNwEGN4EGOAE2AEDwgILEAAYgAQYkgMYigXCAgsQABiABBixAxjJA8ICCxAuGIAEGMcBGK8BmAMS4gMFEgExIECIBgGQBhO6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBS6BgYIBBABGAuSBwUyLjUuMqAHrrUB&sclient=gws-wiz-serp">Click here</a> to more information</p>
+                </div>
+                <div class="placecard">
+                    <img src="picss/thailand.jpg" alt="">
+                    <h3>THAILAND</h3>
+                    <p>59876 kilometer Away</p>
+                    <p>2,89,265 Night</p>
+                    <br>
+                    <p><a href="https://www.google.com/search?q=thailand&sca_esv=6e61609ced185b10&sca_upv=1&rlz=1C1CHBD_enIN1114IN1114&biw=1536&bih=730&sxsrf=ADLYWIKlhJKMEJEgfqOXW5solopsV-eFTg%3A1719032816522&ei=8Ft2ZqrKH5bf2roPmpucsAo&ved=0ahUKEwiqgoujuO6GAxWWr1YBHZoNB6YQ4dUDCBA&uact=5&oq=thailand&gs_lp=Egxnd3Mtd2l6LXNlcnAiCHRoYWlsYW5kMhAQLhiABBixAxhDGIMBGIoFMg0QABiABBixAxhDGIoFMg0QABiABBixAxhDGIoFMgoQABiABBhDGIoFMg0QABiABBixAxhDGIoFMggQABiABBixAzINEAAYgAQYsQMYQxiKBTIFEAAYgAQyChAAGIAEGEMYigUyCBAAGIAEGLEDMh8QLhiABBixAxhDGIMBGIoFGJcFGNwEGN4EGOAE2AEESOolUOkCWKkicAJ4AZABBJgB5QKgAZUVqgEHMC44LjQuMbgBA8gBAPgBAZgCC6AChg-oAhHCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICChAjGIAEGCcYigXCAgsQLhiABBixAxiDAcICBRAuGIAEwgIHECMYJxjqAsICFhAAGAMYtAIY5QIY6gIYjAMYjwHYAQPCAhYQLhgDGLQCGOUCGOoCGIwDGI8B2AEDwgIWEC4YgAQYQxi0AhjIAxiKBRjqAtgBAsICBBAjGCfCAg4QLhiABBixAxiDARiKBcICCxAAGIAEGLEDGIMBwgIKEC4YgAQYQxiKBcICExAuGIAEGMcBGCcYigUYjgUYrwHCAg0QLhiABBixAxhDGIoFwgIgEC4YgAQYxwEYigUYjgUYrwEYlwUY3AQY3gQY4ATYAQTCAg4QABiABBixAxiDARiKBcICERAuGIAEGLEDGNEDGIMBGMcBmAMQiAYBkAYRugYGCAEQARgJugYGCAIQARgIugYGCAMQARgLugYGCAQQARgUkgcHMi41LjMuMaAH67MB&sclient=gws-wiz-serp">Click here</a> to more information</p>
+                </div>
+                <div class="placecard">
+                    <img src="picss/singapore.jpg" alt="">
+                    <h3>SINGAPORE</h3>
+                    <p>6981 kilometer Away</p>
+                    <p>6,43,812 Night</p>
+                    <br>
+                    <p><a href="https://www.google.com/search?q=singapore&sca_esv=6e61609ced185b10&sca_upv=1&rlz=1C1CHBD_enIN1114IN1114&biw=1536&bih=730&sxsrf=ADLYWIIEo6b7uitlmGK7VfzEV6iJrpbWeQ%3A1719032843924&ei=C1x2ZvyAONbc2roPgtCZmAE&ved=0ahUKEwi8spOwuO6GAxVWrlYBHQJoBhMQ4dUDCBA&uact=5&oq=singapore&gs_lp=Egxnd3Mtd2l6LXNlcnAiCXNpbmdhcG9yZTINEC4YgAQYsQMYQxiKBTITEC4YgAQYsQMY0QMYQxjHARiKBTITEC4YgAQYsQMYQxjHARiKBRivATIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIIEAAYgAQYsQMyDRAAGIAEGLEDGEMYigUyDRAAGIAEGLEDGEMYigUyDRAAGIAEGLEDGEMYigUyCxAAGIAEGLEDGIoFMhwQLhiABBixAxhDGIoFGJcFGNwEGN4EGOAE2AEDSJosULgDWP4kcAJ4AZABBJgB0gKgAf4WqgEHMC45LjMuMrgBA8gBAPgBAZgCDKAC9g-oAhDCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICEBAuGIAEGLEDGEMYgwEYigXCAgUQABiABMICHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQPCAgcQIxgnGOoCwgIWEC4YgAQYQxi0AhjIAxiKBRjqAtgBAsICChAjGIAEGCcYigXCAgoQLhiABBhDGIoFwgIWEC4YgAQYsQMY0QMYQxiDARjHARiKBcICCxAAGIAEGLEDGIMBwgIQEC4YgAQYQxjHARiKBRivAcICFxAuGIAEGLEDGIMBGMcBGIoFGI4FGK8BwgIUEC4YgAQYsQMYgwEYxwEYjgUYrwHCAggQLhiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEC4YgAQYxwEYrwHCAg4QLhiABBixAxjHARivAZgDD4gGAZAGE7oGBggBEAEYCboGBggCEAEYCLoGBggDEAEYFJIHBzIuNy4yLjGgB73FAQ&sclient=gws-wiz-serp">Click here</a> to more information</p>
+                </div>
+                <div class="placecard">
+                    <img src="picss/china wall.jpg" alt="">
+                    <h3>CHINA</h3>
+                    <p>89654 kilometer Away</p>
+                    <p>5812 Night</p>
+                    <br>
+                    <p><a href="https://www.google.com/search?q=china&sca_esv=6e61609ced185b10&sca_upv=1&rlz=1C1CHBD_enIN1114IN1114&biw=1536&bih=730&sxsrf=ADLYWIJJ-xmX78Ifp0JkHLfQYw9Vcg03Ow%3A1719032879813&ei=L1x2ZqaOMYHf2roPhqC6-Ao&ved=0ahUKEwjm4aHBuO6GAxWBr1YBHQaQDq8Q4dUDCBA&uact=5&oq=china&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWNoaW5hMhAQLhiABBixAxhDGIMBGIoFMhYQLhiABBixAxjRAxhDGIMBGMcBGIoFMhYQLhiABBixAxjRAxhDGIMBGMcBGIoFMhAQLhiABBixAxhDGIMBGIoFMgoQLhiABBhDGIoFMhAQABiABBixAxhDGIMBGIoFMg0QABiABBixAxhDGIoFMg0QABiABBixAxhDGIoFMg0QABiABBixAxhDGIoFMhEQLhiABBixAxjRAxiDARjHATIfEC4YgAQYsQMYQxiDARiKBRiXBRjcBBjeBBjgBNgBA0ilFlCGB1i1DnABeAGQAQCYAdYBoAGuB6oBBTAuMy4yuAEDyAEA-AEBmAIGoAKKCKgCE8ICBxAjGCcY6gLCAhYQABgDGLQCGOUCGOoCGIwDGI8B2AEBwgIWEC4YAxi0AhjlAhjqAhiMAxiPAdgBAcICHBAuGIAEGNEDGEMYtAIYxwEYyAMYigUY6gLYAQLCAhwQLhiABBhDGLQCGMcBGMgDGIoFGOoCGK8B2AECwgIiEC4YgAQYQxi0AhjHARiYBRjIAxiZBRiKBRjqAhivAdgBAsICFhAuGIAEGEMYtAIYyAMYigUY6gLYAQLCAgoQIxiABBgnGIoFwgITEC4YgAQYxwEYJxiKBRiOBRivAcICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAgQQIxgnwgIQEC4YgAQYQxjHARiKBRivAcICEBAuGIAEGNEDGEMYxwEYigXCAhMQLhiABBixAxhDGIMBGMkDGIoFwgILEAAYgAQYkgMYigXCAg4QLhiABBixAxiDARiKBcICChAAGIAEGEMYigXCAhcQLhiABBixAxiDARjHARiKBRiOBRivAcICFBAuGIAEGLEDGIMBGMcBGIoFGK8BwgIiEC4YgAQYsQMYQxiDARjJAxiKBRiXBRjcBBjeBBjgBNgBA5gDHLoGBggBEAEYC7oGBggCEAEYCLoGBggDEAEYFJIHBTEuMi4zoAeXZA&sclient=gws-wiz-serp">Click here</a> to more information</p>
+                </div>
+                <div class="placecard">
+                    <img src="picss/switzerland.jpg" alt="">
+                    <h3>SWITZERLAND</h3>
+                    <p>4268 kilometer Away</p>
+                    <p>1,5820 Night</p>
+                    <br>
+                    <p><a href="https://www.google.com/search?q=switzerland&sca_esv=6e61609ced185b10&sca_upv=1&rlz=1C1CHBD_enIN1114IN1114&biw=1536&bih=730&sxsrf=ADLYWIL3OSGXXDjjUjlw435_FJOXC9zaaA%3A1719032907038&ei=S1x2ZvDtAdDn2roPkPG1yAU&gs_ssp=eJzj4tDP1Tcwy60qMGD04i4uzyypSi3KScxLAQBV2AfY&oq=swit&gs_lp=Egxnd3Mtd2l6LXNlcnAiBHN3aXQqAggAMhAQLhiABBixAxhDGIMBGIoFMg0QABiABBixAxhDGIoFMg0QABiABBixAxhDGIoFMg0QABiABBixAxhDGIoFMg0QLhiABBhDGOUEGIoFMgoQABiABBhDGIoFMggQABiABBixAzIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBMggQABiABBixAzIfEC4YgAQYsQMYQxiDARiKBRiXBRjcBBjeBBjgBNgBAkjGJFDfCViXEXABeAGQAQCYAawBoAGXBaoBAzAuNLgBA8gBAPgBAZgCBqAC-RWoAg_CAgcQIxgnGOoCwgIWEC4YgAQYQxi0AhjIAxiKBRjqAtgBAcICChAjGIAEGCcYigXCAgoQLhiABBhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICExAuGIAEGLEDGNEDGEMYxwEYigXCAhEQLhiABBixAxjRAxiDARjHAcICFhAuGIAEGLEDGNEDGEMYgwEYxwEYigWYAxO6BgYIARABGAi6BgYIAhABGBSSBwkxLjMuMS43LTGgB4ZL&sclient=gws-wiz-serp">Click here</a> to more information</p>
+                </div>
+            </div>
+         </div>  
+         
+         <div class="connect" id="Contact">
+            <div class="head">
+                <h1>Contact<span>Us</span></h1>
+            </div>
+            <div class="Contact">
+                <img src="/picss/contacctus.avif" alt="">
+                <div class="contactform">
+                    <p>Name</p>
+                    <input type="text" placeholder="Enter Name">
+                    <p>Email</p>
+                    <input type="text" placeholder="Enter Email">
+                    <button>Connect</button>
+                </div>
+            </div>
+         </div>
+         <div class="footer">
+            <div class="text">
+                <h3>About us</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium delectus consequuntur accusantium tempora <br>ipsa, doloribus minus pariatur quis deserunt sequi, expedita commodi est ab dolor! Tempore nesciunt porro dolore<br> nihil explicabo, architecto dolor. Minima adipisci blanditiis maiores cum expedita sequi aut asperiores <br>vitae, necessitatibus non in repellendus tempore quia obcaecati.</p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="text">
+                <h3>Tour</h3>
+                <p>Quality</p>
+                <p>Price</p>
+                <p>Affordable</p>
+                <p>Exchange</p>
+            </div>
+            <div class="text">
+                <h3>Travel</h3>
+                <p>Good Home</p>
+                <p>Good Quality</p>
+                <p>Food</p>
+                <p>Best Price</p>
+            </div>
+            <div class="text">
+                <h3>Address</h3>
+                <p>99-256-7895</p>
+                <p>Nature Park</p>
+                <p>Lime Road</p>
+                <p>Mumbai</p>
+            </div>
+         </div>
+         <div class="loginpage">
+            <input type="text" placeholder="Enter Email" id="email"><br>
+            <input type="password" placeholder="Enter password" id="Pass"><br>
+            <button id="loginBtn">Log In</button>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
